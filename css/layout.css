@@ -16,13 +16,13 @@
   text-align: center;
 }
 
-.showcase h2{
+#showcase h2{
   font-family: "Helvetica Neue";
   padding-top: 10vh;
   padding-bottom: 10vh;
 }
 
-.showcase img{
+#showcase img{
   height: 40vh;
   width: 100%;
 }

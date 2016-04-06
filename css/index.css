@@ -39,15 +39,15 @@ section#intro_section img{
 
 }
 
-.showcase{
+#showcase{
   padding-bottom: 10vh;
 }
 
-.showcase.row > div {
+#showcase.row > div {
   height: 40vh;
 }
 
-.showcase > div{
+#showcase > div{
   padding-top: 1vh;
   padding-bottom: 1vh;
 }
