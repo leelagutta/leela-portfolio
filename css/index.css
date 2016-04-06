@@ -1,0 +1,162 @@
+section.banner-img {
+  background-image: url("../img/3.jpg");
+  background-repeat:repeat;
+  background-size:contain;
+}
+
+section.banner-img2 {
+  background-image: url("../img/2.jpg");
+  background-repeat:repeat;
+  background-size:contain;
+}
+
+section h2 {
+  font-family: "Helvetica Neue";
+  font-size: 400%;
+  padding-top: 10vh;
+  text-align: center; 
+}
+
+section#intro_section{
+  padding: 40px 0;
+}
+
+section#intro_section p {
+  height: 50vh;
+  padding-top: 20vh;
+  padding-left: 50vh; 
+  padding-right: 50vh;
+  padding-bottom: 10vh;
+  background-image: url("../img/1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+section#intro_section img{
+  width: auto;
+  display: inline;
+
+}
+
+.showcase{
+  padding-bottom: 10vh;
+}
+
+.showcase.row > div {
+  height: 40vh;
+}
+
+.showcase > div{
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+
+
+/*-------------Media query between width 320px to 699,
+               for phones - portrait : greater than 320px and less than 699px--------------------------------*/
+@media (min-width: 320px) and (max-width: 699px) { 
+
+
+  section.banner h1 {
+    font-size: 400%;  
+  }
+
+  section.#intro_sectiont h2 {
+    font-size: 250%;  
+  }
+  
+  section#intro_section p {
+
+  font-size: 150%;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  
+  }
+
+  section.banner {
+   padding-top: 20vh;
+   height: 45vh;
+ }
+
+ 
+}
+
+@media(max-width: 450px){
+  section.#intro_section p {
+
+  font-size: 150%;
+  padding-right: 3vw;
+  padding-left: 3vw;
+
+  
+  }
+}
+/*-------------Media query between width 700px to 1023,
+               for phones-landscape, Ipad portrait and lanscape : width greater than 700px and less than 1023px; -------*/
+@media (min-width: 700px) and (max-width: 1023px) {
+
+section.banner {
+   padding-top: 40vh;
+   height: 90vh;
+ }
+
+section.banner h1 {
+  font-size: 500%;  
+}
+
+section#intro_section p {
+
+  font-size: 150%;
+  padding-right: 20vw;
+  padding-left: 20vw;
+  
+  }
+
+}
+
+
+/*-------------Media query between width 1024px to 
+                1569,for Laptops : width greater than 1024 and width less than 1600px------*/
+@media (min-width: 1024px) and (max-width: 1600px) { 
+
+  section.banner {
+   padding-top: 40vh;
+   height: 90vh;
+ }
+
+}
+
+@media(max-width:1400px){
+
+  section#intro_section p {
+
+  font-size: 150%;
+  padding-top: 23vh;
+  padding-right: 20vw;
+  padding-left: 20vw;
+  
+  }
+}
+
+
+/*-------------Media query for above 1600px : width greater than 1601------------------------------*/
+@media (min-width: 1601px) { 
+
+  section.banner {
+   padding-top: 30vh;
+   height: 65vh;
+ }
+
+ section#intro_section p {
+
+  font-size: 150%;
+  padding-top: 23vh;
+  padding-right: 25vw;
+  padding-left: 25vw;
+  font-weight: 300;
+  
+  }
+
+}
