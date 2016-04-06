@@ -41,24 +41,9 @@
   opacity: 0.5;
 }
 
-.masonry_grid{
-  position: relative;
-  background-color: #00C9FF;
-  -webkit-column-count: 3;
-  -webkit-column-gap: 0em;
-}
-
-.filler{
-  background-color: red;
-}
 /*-------------Media query between width 320px to 699,
                for phones - portrait : greater than 320px and less than 699px--------------------------------*/
 @media (min-width: 320px) and (max-width: 699px) { 
-  
-.masonry_grid{
-  -webkit-column-count: 1;
-  padding-top: 5vh;
-  }
 
   .item{
   	padding-left: 5vh;
@@ -71,10 +56,6 @@
 /*-------------Media query between width 700px to 1023,
                for phones-landscape, Ipad portrait and lanscape : width greater than 700px and less than 1023px; -------*/
 @media (min-width: 700px) and (max-width: 1023px) {
-
-.masonry_grid{
-  -webkit-column-count: 2;
-  }
 
 }
 
