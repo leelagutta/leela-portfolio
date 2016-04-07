@@ -6,23 +6,25 @@ h2{font-size: 200%;}
 h3{font-size: 150%;}
 h4{font-size: 135%;}
 
+/* Spacing after headeings and para's */
 .spacing p,
 .spacing h1,
 .spacing h2,
 .spacing h4{padding-bottom: 3vh;}
 .spacing h3{padding-top: 3vh;}
 
+/* Styling for headings */
 .heading-style h1,
 .heading-style h4,
 .heading-style p{text-align: center;}
 .heading-style{padding-bottom: 10vh;}
 
+/*default col-6 styling*/
 .col-6{height: 60vh;}
 .col-6 h2{padding: 3vh 0vh 1vh 0vh;}
 
-#intro_section p{
-  color: lightgrey !important;
-}
+
+#intro_section p{color: lightgrey !important;}
 
 .persona-content {
   text-align: center;
@@ -77,11 +79,10 @@ h1{font-size: 220%;}
 h2{font-size: 150%;}
 h3{font-size: 120%;}
 h4{font-size: 105%;}
-p{font-size: 150%;}
 
 .content-padding{padding: 10vh 5vw 10vh 5vw;}
 
-#intro_section h1{font-size: 400%;}
+section#intro_section h1{font-size: 400%;}
 
 section#discovery img{width: 100%;}
 section#scope img{width: 30%;}
@@ -103,7 +104,6 @@ h1{font-size: 250%;}
 h2{font-size: 180%;}
 h3{font-size: 150%;}
 h4{font-size: 120%;}
-p{font-size: 150%;}
 
 #intro_section h1{font-size: 500%;}
 
@@ -124,7 +124,7 @@ h1{font-size: 250%}
 h2{font-size: 200%;}
 h3{font-size: 160%;}
 h4{font-size: 135%;}
-p{font-size: 150%;}
+
 .spacing h1{padding-bottom: 2vh;}
 .content-padding{padding: 20vh 15vw 20vh 15vw;}
 
