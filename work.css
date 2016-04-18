@@ -1,0 +1,45 @@
+/*table{border-collapse: collapse;} 
+tr:nth-child(even) {background-color: #F4F6F7}
+
+td{	padding-right: 2vh;
+	margin: 0;
+	width: 20vw;
+}
+th h3{padding-top: 1vh !important;
+	  padding-bottom: 1vh !important;
+}
+th{  height: 5vh;
+	 background-color: #4CAF50;
+	 color: white;}
+
+td p{font-size: 120%;}
+
+
+div.marketPanel,
+div.productPanel,
+div.usabilityPanel {display: none;}
+
+#competitiveAnalysis_header h1{
+  padding-bottom: 3vh !important;
+}
+
+#competitiveAnalysis_header p{
+   padding-bottom: 3vh !important;
+}
+
+.market:hover,
+.product:hover,
+.usability:hover { background-color: #F4F6F7;}
+
+
+
+
+
+
+
+
+
+
+
+
+*/

@@ -1,0 +1,111 @@
+
+#userPersona{height: 100vh;}
+
+.image-styling{width: 100%;height: 100%;}
+
+.col-height{height: 50vh;}
+
+.col-styling{background-color: pink;
+	text-align: center;
+	border: 10px solid white;
+}
+
+/*.range {
+	width: 100%;
+	padding-left: 3vw !important;
+}*/
+
+.font-styling{
+   font-size: 150%;
+   color: black;
+   line-height: 25px;
+   text-decoration: none;
+}
+.close-styling{
+	position: fixed;
+	right: 100px;
+	text-align: center;
+	top: 90px;
+	
+}
+.close-styling:hover { background: lightgrey; }
+
+.modalDialog {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: 5vh;
+	background: #F4F6F7;
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+
+    /*overflow: scroll;*/
+
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+
+.modalDialog > div {
+	position: relative;
+	opacity: 1;
+    }
+
+ #content {
+    height: 100%;
+    padding: 2vh;
+	overflow: scroll;
+    
+}
+
+.persona-image img{
+	width: 85%;
+
+}
+.image-section img{
+/*padding-left: 6vw;*/
+/*height: 70%;
+width: 100%;*/
+}
+
+.list-style{
+ font-family: 'callunaRegular';
+ font-size: 120%;
+}
+
+
+#persona-detail {
+padding: 0vh 3vw 10vh 3vw;
+    float: left;
+    /*width: 60%;*/
+    height: 100%;
+    overflow: auto;
+    background: yellow;
+}
+
+.list-style,.range{
+	padding-top: 3vh;
+	padding-right: 3vh;
+}
+#persona-intro {
+	text-align: center;
+	
+	/*padding: 3vh;*/
+    float: left;
+    /*width: 40%;*/
+    background: pink;
+    height: 100%;
+    overflow: auto;
+    /*box-sizing: border-box;*/
+}
+
+
