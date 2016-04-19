@@ -56,6 +56,48 @@ h4{font-size: 135%;}
   font-family: "callunaitalic"!important;
 }
 
+@media (min-width: 700px) and (max-width: 1023px) {
+   h1{font-size: 250%;}
+   h2{font-size: 180%;}
+   h3{font-size: 150%;}
+   h4{font-size: 120%;}
+.content-padding{padding: 15vh 10vw 15vh 10vw;}
+.persona-container h1{
+  font-size: 400%;
+}
+.persona-container h3{
+  font-size: 250%;
+}
+.col-6-height{height: 80vh;}
+.col-4-6{height: 40vh;}
+.col-4-style{text-align: center;border-bottom: 1px solid lightgrey;}
+}
+
+@media (min-width: 1024px) and (max-width: 1600px) { 
+h1{font-size: 250%}
+h2{font-size: 200%;}
+h3{font-size: 160%;}
+h4{font-size: 135%;}
+.spacing h1{padding-bottom: 2vh;}
+.content-padding{padding: 20vh 15vw 20vh 15vw;}
+.col-6-height{height: 80vh;}
+.col-4-height{height: 25vh;}
+.col-4-style{text-align: center;
+  border-bottom: 1px solid lightgrey;
+  }
+}
+
+@media (min-width: 1601px) { 
+  .content-padding{padding: 20vh 20vw 20vh 20vw;}
+.col-4-height{height: 20vh;}
+.col-4-style{
+  border-bottom: 1px solid lightgrey;
+  text-align: center;
+  }
+}
+
+
+
 @font-face {
     font-family: callunaRegular;
     src: url(../fonts/CallunaRegular.otf);

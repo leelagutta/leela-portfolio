@@ -5,6 +5,10 @@
   position: relative;
 }
 
+.persona_container figcaption{
+  padding-top:20vh;
+}
+
 .item figcaption {
   background: black;
   color: white;
@@ -30,6 +34,7 @@
   -moz-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
 }
+
 
 .item figcaption h1{
    font-size: 2em !important;

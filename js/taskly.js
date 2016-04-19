@@ -182,18 +182,23 @@ var userInsights_content =
     '</div>'+    
     '</div>';
 
+// var persona_container= '<div class="col-4" <img src="img/designer.jpg"></div>'+
+                       // '<div class="col-4" <img src="img/designer.jpg"></div>'+
+                       // '<div class="col-4" <img src="img/designer.jpg"></div>';
+ 
+
  var persona_header = '<h4>The user</h4><h1>User Personas</h1>';
- var persona_container =  '<div class="col-4 col-height col-styling item"><a href="#freeLancer">'+
-                          '<figure><img class="image-styling" src="img/designer.jpg" alt="freeLancer">'+
-                          '<figcaption><h2>Fashionista</h2><h3>Designer</h3>'+
-                          '</figcaption></figure></a></div>'+
-                          '<div class="col-4 col-height col-styling item"><a href="#smallBusinessOwner">'+
+ var persona_container =  '<div class="col-4 col-height col-styling item"><a href="#smallBusinessOwner">'+
                           '<figure><img class="image-styling" src="img/storeowner.jpg" alt="smallBusinessOwner">'+
-                          '<figcaption><h2>Busy Bee</h2><h3>Store Owner</h3>'+
+                          '<figcaption><h2>Store Owner</h2><h3>Small Business</h3>'+
                           '</figcaption></figure></a></div>'+
                           '<div class="col-4 col-height col-styling item"><a href="#softwareProfessional">'+
                           '<figure><img class="image-styling" src="img/techie.jpg" alt="softwareProfessional">'+
-                          '<figcaption><h2>Fashionista</h2><h3>Engineering Manager</h3>'+
+                          '<figcaption><h2>Engineering Manager</h2><h3>Mid Size Company</h3>'+
+                          '</figcaption></figure></a></div>'+
+                          '<div class="col-4 col-height col-styling item"><a href="#freeLancer">'+
+                          '<figure><img class="image-styling" src="img/designer.jpg" alt="freeLancer">'+
+                          '<figcaption><h2>Fashion Designer</h2><h3>freelancer</h3>'+
                           '</figcaption></figure></a></div>';
 
 
@@ -214,31 +219,31 @@ var scope_header =' <h1>Feature set</h1>';
 var freeLancer = '<div id="content">'+
       '<a href="#userPersona" title="Close" class="close-styling font-styling"><h2>X</h2></a>'+
       '<article id="persona-intro" class="col-3">'+
-      '<div class="persona-image"><img src="img/fa1.jpg"></div>'+
+      '<div class="persona-image"><img src="img/designer.jpg"></div>'+
       '<h1>Designer</h1>'+
       '<p>Laurel, 27years, Masters in Fine Arts, Single <p>'+
       '<p class="italic">"I  would like to have a custom board, so that I can track the status of a particular project visually</p></article>'+
       '<article id="persona-detail" class="col-9">'+
         '<div class="list-style">'+
           '<h1>Job Title and Major Responsibilities</h1>'+
-          '<ul>'+
+          '<ol>'+
           '<li>Keeping up to date with the progress of collections/projects being made with various vendors</li>'+
           '<li>Desiging new clothes for the upcoming season</li>'+
-          '<li>Collaborating with sales and marketing teams to promote brands new collections</li>'+
+          '<li>Collaborating with sales and marketing teams to promote brands new collections</li></ol>'+
           '<h1>Goals and tasks they are trying to accomplish with taskly</h1> '+
-          '<ul>'+
+          '<ol>'+
           '<li>She would like to have vendors, clients on chat so that she can quickly connect with them</li>'+
           '<li>She would like to have the option of setting up her custom board, so that she can track the status of a particular task</li>'+
-          '<li>She would like to have the option of looking at her tasks at one place based on dates</li>'+
+          '<li>She would like to have the option of looking at her tasks at one place based on dates</li></ol>'+
           '<h1>Physical, Social and technological enviornment </h1>'+
-          '<ul>'+
+          '<ol>'+
           '<li>Works long hours, extremely focused on her goals</li>'+
           '<li>Organised and disciplined</li>'+
           '<li>Follows fashion news online</li>'+
           '<li>Reading books, hiking, outdoor activites</li>'+
           '<li>Enjoys different cultures and loves travelling.</li>'+
           '<li>Tech savvy. Usually connects with friends and family on social media</li>'+
-          '<li>Atleast spends 3 hrs browsing the internet</li></ul>'+
+          '<li>Atleast spends 3 hrs browsing the internet</li></ol>'+
       '</article></div>';
 
 var smallBusinessOwner = '<div id="content">'+
@@ -251,22 +256,22 @@ var smallBusinessOwner = '<div id="content">'+
       '<article id="persona-detail" class="col-9">'+
         '<div class="list-style">'+
           '<h1>Job Title and Major Responsibilities</h1>'+
-          '<ul>'+
+          '<ol>'+
           '<li>Manages the inventory of the store </li>'+
           '<li>Manages sales and marketing online via social media</li>'+
-          '<li>Meets with vendors to make deals to get the best product to sell in his store</li>'+
-          '<h1>Goals and tasks they are trying to accomplish with taskly</h1> '+
-          '<ul>'+
+          '<li>Meets with vendors to make deals to get the best product to sell in his store</li></ol>'+
+          '<h1>Goals and tasks they are trying to accomplish with taskly</h1>'+
+          '<ol>'+
           '<li>He would like to use taskly to track his orders with vendors</li>'+
           '<li>He would like to have an email and chat embedded in the app, so that he can contact his employees or vendors quickly</li>'+
           '<li>He would like to organise all the tasks for the month and work on them one by one</li>'+
-          '<li>He would like to assign a task to his employee and track their progress</li>'+
+          '<li>He would like to assign a task to his employee and track their progress</li></ol>'+
           '<h1>Physical, Social and technological enviornment </h1>'+
-          '<ul>'+
+          '<ol>'+
           '<li>Wakes up early in the morning. Likes his morning runs</li>'+
           '<li>Cognizent of what he is selling</li>'+
           '<li>Follows politics and is a passionate reader.</li>'+
-          '<li>Spends time with his family during weekends</li></ul>'+
+          '<li>Spends time with his family during weekends</li></ol>'+
       '</article></div>';
 
 var softwareProfessional = '<div id="content">'+
@@ -279,20 +284,20 @@ var softwareProfessional = '<div id="content">'+
       '<article id="persona-detail" class="col-9">'+
         '<div class="list-style">'+
           '<h1>Job Title and Major Responsibilities</h1>'+
-          '<ul>'+
+          '<ol>'+
           '<li>Managing stake holders and project deliverables</li>'+
           '<li>Assiging tasks to his team to meet the project deadlines</li>'+
-          '<li>Track teams and indiviual employees progress</li>'+
+          '<li>Track teams and indiviual employees progress</li></ol>'+
           '<h1>Goals and tasks they are trying to accomplish with taskly</h1> '+
-          '<ul>'+
+          '<ol>'+
           '<li>Visually representing the tasks, will give him clear picture of what is left to do</li>'+
           '<li>He would like to assign tasks and view tasks that are assigned to him</li>'+
-          '<li>He would like to schedule meetings or communicate with his collegues via chat or email</li>'+
+          '<li>He would like to schedule meetings or communicate with his collegues via chat or email</li></ol>'+
           '<h1>Physical, Social and technological enviornment </h1>'+
-          '<ul>'+
+          '<ol>'+
           '<li>Works at Google. Lives in sillicon valley</li>'+
           '<li>Loves basketball, travelling and technology</li>'+
-          '<li>Enjoys hiking and nature</li></ul>'+
+          '<li>Enjoys hiking and nature</li></ol>'+
       '</article></div>';
       
 $("#intro_section").append(intro_section);
