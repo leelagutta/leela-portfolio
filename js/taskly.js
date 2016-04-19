@@ -24,7 +24,6 @@ var competitiveAnalysis_header = '<h4>The Discovery</h4>'+
   '<p class="italic">To know more click on the categories below</p>' ;
 
 var market_panel = 
-   
     '<table><tr><th><h3>Company</h3></th><th><h3>About</h3></th><th><h3>Target Market</h3></th><th><h3>Marketing Strategy</h3></th><th><h3>Competitve Advantage</h3></th></tr>'+
     '<tr><td><h3>Asana</h3></td>'+
         '<td><p>Asana is a SaaS project management tool, with a mission to enable all kinds of teams to work together effortlessly.</p></td>'+
