@@ -38,106 +38,108 @@ var market_panel =
             '<li>Works with premium organisations of 50+ members to get a dedicated customer success manager(CSM).</ol></td></tr>'+
     '<tr><td><h3>Basecamp</h3></td>'+ 
         '<td><p>Basecamp is a unique blend of six tools that every group needs to do any kind of work together. All under one roof.</p></td>'+ 
-        '<td><p>All kinds of companies, that need project management. Companies small to big</p></td>'+
-        '<td><ul>'+
-            '<li>Blogs about company building, company culture, features of their product on medium</li>'+
-            '<li>Workshops on different products and company building.</li>'+ 
+        '<td><p>All kinds of companies, that need project management. Companies small and big</p></td>'+
+        '<td><ol>'+
+            '<li>Blogs about company culture building, features of their product on medium</li>'+
+            '<li>Workshops on different products and culture building.</li>'+ 
             '<li>Offering fremium for teams less than 15 members.</li>'+
-            '<li>Wrote books on company culture</li></td>'+
-        '<td><li>Simple Pricing structure.</li>'+ 
+            '<li>Wrote books on company culture</li></ol></td>'+
+        '<td><ol><li>Simple Pricing structure.</li>'+ 
             '<li>No per user fee</li>'+ 
             '<li>100 percent uptime</li>'+ 
             '<li>Faster application load time</li>'+   
-            '<li>Automatic check-in feature and reports feature</li></td></tr>'+
+            '<li>Automatic check-in feature and reports feature</li></ol></td></tr>'+
         
     '<tr><td><h3>Jira</h3></td>'+
         '<td><p>JIRA Software is built for every member of your software team to plan, track, and release great software.</p></td>'+
         '<td><p>JIRA is for software development teams and for other teams that track issues for product development. The issue and project tracking software is ready for teams that use Agile methods such as Scrum or Kanban. </p></td>'+
-        '<td><ul>'+
+        '<td><ol>'+
             '<li>Ads on Social Media</li>'+
             '<li>Contact CEO directly</li>'+
-            '<li>Only agile based project management software</li></ul></td>'+
-        '<td><ul>'+
+            '<li>Only agile based project management software</li></ol></td>'+
+        '<td><ol>'+
             '<li>Niche product for software projects</li>'+
             '<li>Can host on your own server</li>'+ 
             '<li>Agile based</li>'+
-            '<li>Total task management tool, right from scrum boards to reports</li></td></tr></table>';
+            '<li>Total task management tool, right from scrum boards to reports</li></ol></td></tr></table>';
 
 
 var product_panel = 
-    '<tr><th>Company</th><th>Product Features</th><th>Pricing and Cost</th><th>Calls to Action</th><th>Site Performance</th></tr>'+
-    '<tr><td>Asana</td>'+
-         '<td><ul>'+
-            '<li>Has chat embedded within the application.</li>'+
-            '<li>Can create projects, tasks and subtasks. Can Assign to anyone in the project.</li>'+
-            '<li>Project profile and Personal profile view.</li>'+
-            '<li>Overall progress of the project.</li>'+
+    '<tr><th><h3>Company</h3></th><th><h3>Product Features</h3></th><th><h3>Pricing and Cost</h3></th><th><h3>Calls to Action</h3></th><th><h3>Site Performance</h3></th></tr>'+
+    '<tr><td><h3>Asana</h3></td>'+
+         '<td><ol>'+
+            '<li>Has embedded chat within the application.</li>'+
+            '<li>Can create multiple projects, tasks and subtasks. Can assign tasks to anyone in the project.</li>'+
+            '<li>Two different profiles for projects and personal.</li>'+
+            '<li>Visual view of overall progress of the project.</li>'+
             '<li>Able to view deadlines of projects or tasks on calendar.</li>'+
-            '<li>Ability to add multiple projects.</li>'+
-            '<li>Integration of external tools</li></td>'+
-          '<td><li>'+
-            '<li>Free for teams up to 15. </li>'+ 
-            '<li>8.33/month per user. Pricing per user is reduced in smaller teams.</li></td>'+
-          '<td><p>AThey have a try the service. Which is a good call to action. I dont want to sign up without looking at the product.</p></td>'+ 
-          '<td><p>Site has a little bit of lag. About 1 sec</p></td></tr>'+
-    '<tr><td>Basecamp</td>'+ 
-         '<td><ul>'+
+            '<li>Integration of external tools</li></ol></td>'+
+          '<td><ol>'+
+            '<li>Free for teams up to 15.</li>'+ 
+            '<li>8.33/month per user. Pricing per user is reduced in smaller teams.</li></ol></td>'+
+          '<td><p>They have trial period and free for teams up to 15.</p></td>'+ 
+          '<td><p>There is a bit of loading time, but not significant enough to annoy the user. </p></td></tr>'+
+    '<tr><td><h3>Basecamp</h3></td>'+ 
+         '<td><ol>'+
             '<li>Released new basecamp3 with features like chat, messages, To-do(tasks)</li>'+
-            '<li>scheduling events or meetings, Automatic checkins, Docs and Files. </li>'+ 
-            '<li>Also has pings(one-on-one messaging).</li>'+
-            '<li>Reports.  Shortcuts to assignments.6. Activity feed. Notifications, Search. </p></li></td>'+
-        '<td><ul>'+
+            '<li>scheduling events or meetings, Automatic checkins, Docs and Files, Notifications</li>'+ 
+            '<li>Has pings(one-on-one messaging).</li>'+
+            '<li>Can generate Reports.</li>'+  
+            '<li>Shortcuts to assignments and activity feed.</li></ol></td>'+
+        '<td><ol>'+
             '<li>Basic Plan - 29/month</li>'+
             '<li>Basic plan with client integration - 79/month</li>'+ 
-            '<li>Enterprise with 1TB of data - 3000/Year</li></td>'+
-        '<td><li>1. They have a try the service. Which is a good call to action. I don’t want to sign up without looking at the product.</li>'+ 
-            '<li>Can create how many ever basecamps for a standard price of 29/month. </li></td>'+
-        '<td><p>Site is very fast. </p></td></tr>'+
-    '<tr><td>Jira</td>'+
-        '<td><ul>'+
-            '<li>1. Has scrum board where stories/cards are moved from one status to another during a sprint. </li>'+
+            '<li>Enterprise with 1TB of data - 3000/Year</li></ol></td>'+
+        '<td><ol>'+
+            '<li>They have trial for 14days</li>'+ 
+            '<li>Can create how many ever basecamps for a standard price of 29/month.</li></ol></td>'+
+        '<td><p>Loading time is very quick</p></td></tr>'+
+    '<tr><td><h3>Jira</h3></td>'+
+        '<td><ol>'+
+            '<li>Has scrum board where stories/cards are moved from one status to another during a sprint. </li>'+
             '<li>Advanced reports on issues, backlog etc. </li>'+
             '<li>Can create any number of projects with enterprise edition. </li>'+
             '<li> Integration with outside tools.</li>'+
             '<li>6. Host on your own server. </li>'+
-            '<li>Can check all the checkins made to a particular story ,with fisheye integration. </li></ul></td>'+
-        '<td><ul>'+
-            '<li>1. 10/month up to 10 users. Price increases with the number of users. 1500/month up to 2000 users.</li></ul></td>'+
+            '<li>Can check all the checkins made to a particular story ,with fisheye integration. </li></ol></td>'+
+        '<td><ol>'+
+            '<li>1. 10/month up to 10 users. Price increases with the number of users. 1500/month up to 2000 users.</li></ol></td>'+
         '<td><p>They have a try the service. Which is a good call to action. I don’t want to sign up without looking at the product. </p></td>'+
         '<td><p>Site is generally considered slower. Has lot of downtime.</p></td></tr>';
 
 
-var usability_panel = '<tr><th>Company</th><th>Usability</th><th>Layout & Navigation</th><th>Design Aesthetic </th><th>Content & Brand Voice</th></tr>'+
-    '<tr><td>Asana</td>'+
+var usability_panel = '<tr><th><h3>Company</h3></th><th><h3>Usability</h3></th><th><h3>Layout & Navigation</h3></th><th><h3>Design Aesthetic</h3></th><th><h3>Content & Brand Voice</h3></th></tr>'+
+    '<tr><td><h3>Asana</h3></td>'+
         '<td><p>Overall usability is pretty smooth.Names are little bit confusing at first, like campfires, pings, schedules, but ones you get what they mean, its a breeze. </p></td>'+
-        '<td><ul>'+
+        '<td><ol>'+
             '<li>Layout is clean, simple and understandable.</li>'+
             '<li>Could improve making the tools thumbnails more appealing in colors and styling. </li>'+ 
             '</li>After a new  to-do task is added, you have to go back to dashboard to see the new todo. It would be better to show the list soon after its created .</li>'+
-            '</li>Navigation is clear, I know where exactly I am in the application.</p></li></td>'+
-        '<td><ul>'+
+            '</li>Navigation is clear, I know where exactly I am in the application.</li></ol></td>'+
+        '<td><ol>'+
             '<li>Application has very subtle colors. </li>'+
             '<li>Background is very neutral with lighter shades of cream. </li>'+ 
             '<li>Chat Text background is light blue. Text is black. </li>'+
-            '<li>Theres color to the person icon</li></td>'+
+            '<li>Theres color to the person icon</li></ol></td>'+
         '<td><p>Tone of the language across the app is very relaxed, casual and sometimes funny.</p></td></tr>'+
-    '<tr><td>Basecamp</td>'+ 
+    '<tr><td><h3>Basecamp</h3></td>'+ 
         '<td><p>Easy to find things.But Task list is not very appealing. Its hard to find all the subtasks involved in it on a project level</p></td>'+ 
-        '<td><ul>'+
+        '<td><ol>'+
             '<li>Clean and clear. Could improve on the tasks and dash board.</li>'+
             '<li> No Visual representation of project status based on subtasks for the main task. </li>'+
             '<li>No Project tracking based on assignee</li>'+
             '<li>Navigation is clear, I know where exactly I am in the application.</li>'+
-        '<td><li>Background is a combination of Navy and white. </li>'+
+        '<td><ol>'+
+           '<li>Background is a combination of Navy and white. </li>'+
            '<li>Dashboards background is Navy and the rest is light blue to white tone. </li>'+ 
            '<li>Text is black. Highlighted area is light blue </li>'+ 
            '<li>People buttons are multicolored .</li>'+   
-        '<td><p>Tone of the language is casual. Very close to reality. Relatable</p></td></tr>'+
-    '<tr><td>Jira</td>'+
+        '<td><p>Tone of the language is casual. Very close to reality. Relatable</li></ol></td></tr>'+
+    '<tr><td><h3>Jira</h3></td>'+
         '<td><p>Not easy to find things, Name are confusing</p></td>'+
         '<td><p>I never will know where I am. Can’t find things without getting totally lost</p></td>'+
-        '<td><ul>'+
-            '<li>All the buttons and navigational panel is blue in color. Background is white. Text is black. Multiple colors for different  status. </li></ul></td>'+
+        '<td><ol>'+
+            '<li>All the buttons and navigational panel is blue in color. Background is white. Text is black. Multiple colors for different  status. </li></ol></td>'+
         '<td><p>Tone of the language is very professional. </p></td></tr></table>';
 var userInsights_header ='<h4>The Discovery 2</h1>'+ 
   '<h1>User Insights</h1>'+
