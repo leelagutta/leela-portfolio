@@ -206,28 +206,32 @@ var userInsights_content =
 var scope_header =' <h1>Feature set</h1>';
 
  var scope_content='<div class="row">'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/projectOverview.png" alt="projectOverview"><h4>Project progress</h4><p>Visual representation of project progress based on the timeline</p></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/report.png" alt="Reports"><h4>Reports</h4><p>Visual representation of reports on productivity, progress and perrormance</p></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/calender.png" alt="Calender"><h4>Project Calender</h4><p>Project specific calender with project milestones, events and meetings at one place</p></div></div>'+
-  '<div class="row"><div class="col-4 col-4-height col-4-style"><img src="img/pin.png" alt="attachments"><h4>Attachments</h4><p>Upload images, files, ideas at one place and have the whole team access them</p></div>'+  
-  '<div class="col-4 col-4-height col-4-style"><img src="img/board.jpg" alt="Board"><h4>Boards</h4><p>Visual boards to track the life cycle of a task end-to-end</div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/search2.png" alt="Search"><h4>Search</h4><p>search anything from current tasks, archived tasks, team members, task assigned, events, meetings, conversations etc</p></div></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/projectOverview.png" alt="projectOverview"><h4>Project progress</h4><p>Visual representation of project progress based on the timeline</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/report.png" alt="Reports"><h4>Reports</h4><p>Visual representation of reports on productivity, progress and perrormance</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/calender.png" alt="Calender"><h4>Project Calender</h4><p>Project specific calender with project milestones, events and meetings at one place</p></div></div>'+
+  
+  '<div class="row"><div class="col-4 col-4-height col-4-style"><img src="img/Taskly/pin.png" alt="attachments"><h4>Attachments</h4><p>Upload images, files, ideas at one place and have the whole team access them</p></div>'+  
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/board.jpg" alt="Board"><h4>Boards</h4><p>Visual boards to track the life cycle of a task end-to-end</div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/search2.png" alt="Search"><h4>Search</h4><p>search anything from current tasks, archived tasks, team members, task assigned, events, meetings, conversations etc</p></div></div>'+
+  
   '<div class="row">'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/category.png" alt="category"><h4>categorize tasks</h4><p>Categorize tasks based on a category to track them appropriately</p></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/dashboard.png" alt="Dashboard"><h4>Dashboard</h4><p>Quick access to chat, calender, boards and tasks</p></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/myCalendar.png" alt="Calendar"><h4>Personal calender</h4><p>showing tasks, events assigned to a user</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/category.png" alt="category"><h4>categorize tasks</h4><p>Categorize tasks based on a category to track them appropriately</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/dashboard.png" alt="Dashboard"><h4>Dashboard</h4><p>Quick access to chat, calender, boards and tasks</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/myCalendar.png" alt="Calendar"><h4>Personal calender</h4><p>showing tasks, events assigned to a user</p></div></div>'+
+  
   '<div class="row">'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/chat.png" alt="Chat"><h4>Instant chat</h4><p>Chat instantly with individuals or groups</p></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/multiProject.png" alt="Ezvari"><h4>Multiple projects</h4><p>Having access to any number of projects at a time</p></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/subtask.png" alt="Subtask"><h4>Create subtasks</h4><p>Ability to create subtasks for a task and track the progress</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/chat.png" alt="Chat"><h4>Instant chat</h4><p>Chat instantly with individuals or groups</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/multiProject.png" alt="Ezvari"><h4>Multiple projects</h4><p>Having access to any number of projects at a time</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/subtask.png" alt="Subtask"><h4>Create subtasks</h4><p>Ability to create subtasks for a task and track the progress</p></div></div>'+
+  
   '<div class="row">'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/Video2.png" alt="Video Conference"><h4>Video Conference</h4><p>Conduct video meetings right from the application</p></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/statusBar.png" alt="Status Bar"><h4>Status bar</h4><p> Visual status bar on task cards for quick project status update. This can be seen on calendar, lists and boards</p></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/edit.png" alt="Calendar"><h4>Edit Tasks</h4><p>Create & edit tasks directly on calender</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/Video2.png" alt="Video Conference"><h4>Video Conference</h4><p>Conduct video meetings right from the application</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/statusBar.png" alt="Status Bar"><h4>Status bar</h4><p> Visual status bar on task cards for quick project status update. This can be seen on calendar, lists and boards</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/edit.png" alt="Calendar"><h4>Edit Tasks</h4><p>Create & edit tasks directly on calender</p></div></div>'+
   '<div class="row">'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/dd.png" alt="Ezvari"><h4>Move Cards</h4><p>Drag and drop cards on board to update the status of tasks on the board</p></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/wiki.png" alt="Wiki"><h4>Internal Wikipedia</h4><p>Team can create, edit and read articles or posts made by team members</p></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/lists.png" alt="Ezvari"><h4>View Tasks</h4><p>View tasks as lists or on calender</p></div></div>';
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/dd.png" alt="Ezvari"><h4>Move Cards</h4><p>Drag and drop cards on board to update the status of tasks on the board</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/wiki.png" alt="Wiki"><h4>Internal Wikipedia</h4><p>Team can create, edit and read articles or posts made by team members</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/Taskly/lists.png" alt="Ezvari"><h4>View Tasks</h4><p>View tasks as lists or on calender</p></div></div>';
 
 
 var freeLancer = '<div id="content">'+

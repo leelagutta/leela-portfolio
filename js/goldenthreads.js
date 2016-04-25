@@ -8,7 +8,8 @@ var challenge = '<h4>The Challenge</h4>'+
     '<h1>Create personalized experiences for clients</h1>'+
     "<p>Golden Threads provides personalized apparel design services based on customer's individual choice. They currently have a brick and mortar store in India where south asian clients from all over the globe goes in to get customized clothing.</p>"+ 
     '<p>As the brand gained popularity via social marketing channels, they realized they had significant amount of customer base who is interested in their customized services from countries where there is a significant south Asian market. </p>'+
-    '<p> In order to be readily accessible to this section of market, who cannot always visit their physical store, they wanted a marketplace where they can provide a personalized shopping experience similar to their brick and mortar store.</p>';
+    '<p> In order to be readily accessible to this section of market, who cannot visit their physical store, they wanted a marketplace where they can provide a personalized shopping experience similar to their brick and mortar store.'+
+    '<p>Challenge is to design an e-commerce web application, that speaks the brand integrity and an experience similar to their physical store</p>';
 
 var role ='<h1>My Role</h1>'+
     '<h2>User Research & Analysis </h2>'+
@@ -43,12 +44,12 @@ var discovery_feature_content =
     '<div class="col-6 col-6-height">'+
         '<div><img src="img/pricesensitive.jpg" alt="Ezvari"></div>'+
         '<caption><h2>Price Sensitive</h2><caption>'+
-        '<div><p>This segment of market would like to find a balance between price and quality. Willing to spend up to 200 dollars</p></div>'+
+        '<div><p>This segment of market would like to find a balance between price and quality. Willing to spend up to 200 dollars.</p></div>'+
     '</div>'+
     '<div class="col-6 col-6-height">'+
         '<div><img src="img/visual.jpg" alt="Ezvari"></div>'+
         '<caption><h2>Visualization</h2><caption>'+
-        '<div><p>Customers find it hard to visualize how a garment will look on them. They are skeptical about the colors, style and fit.</p></div>'+
+        '<div><p>Customers find it hard to visualize how a garment would look on them. They are skeptical about the colors, style and fit.</p></div>'+
     '</div>'+ 
     '</div>'+ 
  
@@ -58,12 +59,12 @@ var discovery_feature_content =
         '<div><img src="img/consultation.jpg" alt="Ezvari"></div>'+
         '<caption><h2>Design Consultation</h2><caption>'+
         '<div><p>'+
-        ' About 68 percent of people prefer to have a design consulation, as they can talk to the business directly and have a more personel relationship</p></div>'+
+        ' About 68 percent of people prefer to have a design consulation, to talk to the business directly and have a more personel relationship</p></div>'+
     '</div>'+  
     '<div class="col-6 col-6-height">'+
         '<div><img src="img/returnpolicy.jpg" alt="Ezvari"></div>'+
         '<caption><h2>Returnophobia</h2><caption>'+
-        '<div><p>About 65 percent of customers are concerened about return policy and would like to have easier way of getting a return label</p></div>'+
+        '<div><p>About 65 percent of customers are concerened about return policy and would like to have free returns, possibly in the same country they are living in.</p></div>'+
     '</div>'+
     '</div>'+   
 
@@ -71,7 +72,7 @@ var discovery_feature_content =
      '<div class="col-6 col-6-height">'+
       '<div><img src="img/devices.jpg" alt="Ezvari"></div>'+
       '<caption><h2>Ways of shopping</h2><caption>'+
-      '<div><p>Up to 65 percent of customers like to shop on web, whereas other 35 percent prefers shopping on mobile</p></div>'+
+      '<div><p>Up to 65 percent of customers like to shop on web, whereas other 35 percent prefer shopping on mobile.</p></div>'+
     '</div>'+
 
       '<div class="col-6 col-6-height">'+
@@ -83,11 +84,11 @@ var discovery_feature_content =
 
  var persona_header = '<h4>The user</h4><h1>User Personas</h1>';
  var persona_container =  '<div class="col-6 col-height col-styling item"><a href="#fashionista">'+
-                          '<figure><img class="image-styling" src="img/fa1.jpg" alt="Fashionista">'+
+                          '<figure><img class="image-styling" src="img/fa2.png" alt="Fashionista">'+
                           '<figcaption><h2>Fashionista</h2><h3>Fashion Lover</h3>'+
                           '</figcaption></figure></a></div>'+
                           '<div class="col-6 col-height col-styling item"><a href="#busyBee">'+
-                          '<figure><img class="image-styling" src="img/busy.jpg" alt="BusyBee">'+
+                          '<figure><img class="image-styling" src="img/busy.png" alt="BusyBee">'+
                           '<figcaption><h2>Busy Bee</h2><h3>Busy professional</h3>'+
                           '</figcaption></figure></a></div>';
       var fashionista = '<div id="content">'+
@@ -98,9 +99,9 @@ var discovery_feature_content =
       '<h3>Payal, 28years, Software Professional, Married, No Kids <h3>'+
       '<h3>Morganville, NJ</h3>'+
       '<h3>Social, Fun and Bubbly</h3>'+
-      '<p>"I  like looking good and wearing beautiful indian clothes for my events that makes me'+
+      '<p class="italic">"I like looking good and wearing beautiful clothes that makes me '+
           'feel unique and special.'+ 
-          'I would like to stand out among my circle" </p></article>'+
+          ' I would like to stand out among my circle" </p></article>'+
       '<article id="persona-detail" class="col-9">'+
         '<div class="col-8 list-style">'+
           '<h1>BIO</h1>'+
@@ -172,18 +173,25 @@ var discovery_feature_content =
           '<li>To see if what she liked is on sale</li></ul></div>'+
       '<div class="col-4 range"><img src="img/ab.png"></div>'+
       '</article></div>';
-var scope_header =' <h1>Feature set</h1>'+
- '<p>Below are the new features that I came up with, apart from traditinal e-comm shopping cart and store</p>';
+var scope_header =' <h4>The Scope</h4><h1>Feature set</h1>'+
+ '<p>Below are the final features that I came up with, after extensive user testing the feature ideas with customers. This process helped us weed out the not so important features and concentrate on what customers needed.</p>';
 
  var scope_content='<div class="row">'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/dress.jpg" alt="Ezvari"><h3>Customizing for your measurements</h3></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/tape.jpg" alt="Ezvari"><h3>Sizing guide</h3></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/insta.jpg" alt="Ezvari"><h3>Real customer pictures from instagram</h3></div></div>'+
-  '<div class="row"><div class="col-4 col-4-height col-4-style"><img src="img/girl.jpg" alt="Ezvari"><h3>CustomerOnBorading</h3></div>'+  
-  '<div class="col-4 col-4-height col-4-style"><img src="img/chat.jpg" alt="Ezvari"><h3>Instant chat with the business</h3></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/gift.jpg" alt="Ezvari"><h3>Test the fit via free sample</h3></div></div>'+
-  '<div class="row"><div class="col-4 col-4-height col-4-style"><img src="img/return.jpg" alt="Ezvari"><h3>Return labels</h3></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/calender.jpg" alt="Ezvari"><h3>Scheduling design consulation appointments</h3></div></div>';
+  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/dress.jpg" alt="Customization"><h4>Customization</h4><p>Customizing clothing according to customers meaurements</h4></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/tape.png" alt="Sizing Guide"><h4>Sizing Guide</h4><p>Comprehensive guide to measure accurately</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/instagram.png" alt="Real Model"><h4>Real Models</h4><p>Embedding pictures of clients who bought the item in the item page</p></div></div>'+
+  '<div class="row">'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/onboarding.png" alt="Ezvari"><h4>CustomerOnBorading</h4><p>On boarding customer in to the application by knowing about their personality and helping them put in accurate measurements</p></div>'+  
+  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/chat2.png" alt="Chat"><h4>Instant chat</h4><p>Instant chat with the business</h3></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/trial.png" alt="Free Sample"><h4>Free sample</h4><p>Test fit via free sample</p></div></div>'+
+  '<div class="row">'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/return1.png" alt="Categories"><h4>Categorize</h4><p>Categorize products based on trends, events, and wornby</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/return1.png" alt="Ezvari"><h4>Style Look</h4><p>A complete style guide for an item</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/return1.png" alt="Ezvari"><h4>Recommendations</h4><p>Recommending items based on clients personality ex:body shape</p></div></div>'+
+  '<div class="row">'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/return1.png" alt="Ezvari"><h4>Return labels</h4><p>Proving easy label in the customer profile for any orders they made</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/calendar2.png" alt="Ezvari"><h4>Design Consultation</h4><p>Free design consulation can be made on phone, email or video chat by appointments</p></div>'+
+  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/calendar2.png" alt="Ezvari"><h4>Customer Profile</h4><p>Easy availability of customer details like order, browsed, saved items etc</p></div></div>';
 
 $("#intro_section").append(intro_section);
 $("#challenge").append(challenge);

@@ -58,14 +58,14 @@ h4{font-size: 135%;}
 }
 
 .col-4-style{text-align: center;
-  border-bottom: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey!important;
   padding-bottom: 10vh!important;
     padding-top: 10vh!important;
   }
 
 .col-4-style p{
 font-family: "callunaRegular"!important;
-font-size: 120%;
+font-size: 120%!important;
 color: black !important;
 
   }

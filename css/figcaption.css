@@ -6,7 +6,19 @@
 }
 
 .persona_container figcaption{
-  padding-top:20vh;
+  padding-top:15vh;
+}
+
+figcaption h2{
+  font-size: 400%;
+}
+
+h2 {
+  padding-bottom: 0vh !important;
+}
+
+h3{
+  padding-top:0vh !important;
 }
 
 .item figcaption {
