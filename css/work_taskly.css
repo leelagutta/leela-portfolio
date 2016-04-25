@@ -57,7 +57,6 @@ div.usabilityPanel {display: none;}
    padding-bottom: 3vh !important;
 }
 
-
 /*-------------Media query between width 320px to 699,
                for phones - portrait : greater than 320px and less than 699px--------------------------------*/
 @media (min-width: 320px) and (max-width: 699px) { 

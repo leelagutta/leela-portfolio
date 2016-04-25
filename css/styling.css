@@ -23,6 +23,7 @@ h4{font-size: 135%;}
 /*default col-6 styling*/
 .col-6-height{height: 60vh;}
 .col-6 h2{padding: 3vh 0vh 1vh 0vh;}
+.col-4-height{height: 40vh;}
 
 .skin-one{
   background-color: #1A1E23;
@@ -56,6 +57,19 @@ h4{font-size: 135%;}
   font-family: "callunaitalic"!important;
 }
 
+.col-4-style{text-align: center;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 10vh!important;
+    padding-top: 10vh!important;
+  }
+
+.col-4-style p{
+font-family: "callunaRegular"!important;
+font-size: 120%;
+color: black !important;
+
+  }
+
 @media (min-width: 700px) and (max-width: 1023px) {
    h1{font-size: 250%;}
    h2{font-size: 180%;}
@@ -69,8 +83,6 @@ h4{font-size: 135%;}
   font-size: 250%;
 }
 .col-6-height{height: 80vh;}
-.col-4-6{height: 40vh;}
-.col-4-style{text-align: center;border-bottom: 1px solid lightgrey;}
 }
 
 @media (min-width: 1024px) and (max-width: 1600px) { 
@@ -81,19 +93,11 @@ h4{font-size: 135%;}
 .spacing h1{padding-bottom: 2vh;}
 .content-padding{padding: 20vh 15vw 20vh 15vw;}
 .col-6-height{height: 80vh;}
-.col-4-height{height: 25vh;}
-.col-4-style{text-align: center;
-  border-bottom: 1px solid lightgrey;
-  }
+
 }
 
 @media (min-width: 1601px) { 
   .content-padding{padding: 20vh 20vw 20vh 20vw;}
-.col-4-height{height: 20vh;}
-.col-4-style{
-  border-bottom: 1px solid lightgrey;
-  text-align: center;
-  }
 }
 
 
