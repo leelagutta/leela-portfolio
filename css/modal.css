@@ -1,12 +1,5 @@
 
-.image-styling{width: 100%;height: 100%;}
 
-.col-height{height: 50vh;}
-
-.col-styling{
-	text-align: center;
-	/*border: 10px solid white;*/
-}
 
 
 .font-styling{
@@ -62,6 +55,8 @@
     
 }
 
+
+
 .persona-image img{
 	width: 85%;
 }
@@ -74,6 +69,7 @@
 
 
 #persona-detail {
+	width: 60%;
     padding: 0vh 3vw 10vh 3vw;
     float: left;
     height: 100%;
@@ -82,6 +78,8 @@
     background: white;
 }
 
+#persona-detail .col-8{width: 100%;}
+
 .list-style,.range{
 	padding-top: 3vh;
 	padding-right: 3vh;
@@ -89,6 +87,7 @@
 
 
 #persona-intro {
+		width: 40%;
 	text-align: center;
 	float: left;
     background: white;

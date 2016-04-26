@@ -55,7 +55,7 @@ body{
 }
 
 
-@media all and (max-width:1023px){
+@media (min-width: 700px) and (max-width:1023px){
  
 .col-1 {width: 25%;}
 .col-2 {width: 33.33%;}
@@ -70,14 +70,15 @@ body{
 .col-11 {width: 100%;}
 .col-12 {width: 100%;}
 
-.row .col-4:last-of-type{width: 100%; }
+.row .col-4:last-of-type{width:50%;display: inline-block;float: left;
+     margin-left: 20vw;}
 .row .col-5 ~ .col-1{width: 100%; }
 .col-8 + .col-4{width: 50% !important;}
 .col-10 + .col-2{width: 100% !important;}
 .col-11 + .col-1{width: 100% !important;}
 }
 
-@media all and (max-width:699px){
+@media (min-width: 300px) and (max-width:699px){
 .col-1 {width: 33.33%;}
 .col-2 {width: 50%;}
 .col-3 {width: 100%;}

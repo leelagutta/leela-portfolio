@@ -17,6 +17,10 @@
   padding-bottom: 3vh !important;
 }
 
+.persona-taskly-styling{
+  height: 50vh;
+  text-align: center;
+}
 
  #sitemap h4{
  	text-align: center;
@@ -41,6 +45,8 @@ padding-right: 10vh;
 	width: 100%;	
 }
 
+.image-styling{width: 100%;height: 100%;}
+
 div.marketPanel,
 div.productPanel,
 div.usabilityPanel {display: none;}
@@ -57,12 +63,14 @@ div.usabilityPanel {display: none;}
    padding-bottom: 3vh !important;
 }
 
+
 /*-------------Media query between width 320px to 699,
                for phones - portrait : greater than 320px and less than 699px--------------------------------*/
 @media (min-width: 320px) and (max-width: 699px) { 
 section#intro_section h1{font-size: 400%;}
 section#discovery img{width: 100%;}
-section#scope img{width: 30%;}
+section#scope img{width: 10%;}
+.image-styling{width: 80%;height: 100%;}
 
 }
 
@@ -73,6 +81,9 @@ section#scope img{width: 30%;}
 #discovery.content-padding{padding: 15vh 5vw 15vh 5vw;}
 section#discovery img{width: 80%;}
 section#scope img{width: 20%;}
+.persona_container.row .col-4:last-of-type{width: 50%; display: inline-block;float: left;
+     margin-left: 20vw; }
+
 
 }
 

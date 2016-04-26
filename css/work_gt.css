@@ -1,114 +1,64 @@
-#intro_section p{color: lightgrey !important;}
+/*-------------Intro Section--------------*/
 
-#userPersona{
-  height: auto;
-  /*padding-bottom: 20vh !important;*/
-}
-.persona-content {
-  text-align: center;
-}
+section#intro_section p{color: lightgrey !important;}
+
+/*-------------Persona Section--------------*/
+section#userPersona{height: auto;}
 
 .persona-content div {
   display: inline-block;
   display: none;
-}
-
-.head{
   text-align: center;
 }
 
-#persona-intro p{
-   color: #505050 !important;
+#persona-intro p{color: #505050 !important;}
+
+.persona-styling{
+  height: 50vh;
+  text-align: center;
 }
 
-#persona-detail ul li{  
-  font-size: 120%;
+.image-styling {
+	width: 100%;
+	height: 100%;
 }
 
-.col-4-height{height: 40vh;}
+/*---------------Scope section----------------*/
+
+
+section#scope img{width: 20%;}
+.discovery-content img{width: 100%;}
+
 /*-------------Media query between width 320px to 699,
                for phones - portrait : greater than 320px and less than 699px--------------------------------*/
 @media (min-width: 320px) and (max-width: 699px) { 
 
-/*h1{font-size: 220%;}
-h2{font-size: 150%;}
-h3{font-size: 120%;}
-h4{font-size: 105%;}*/
+section#scope img{width: 15%;}
 
-.content-padding{padding: 10vh 5vw 10vh 5vw;}
-
-section#intro_section h1{font-size: 400%;}
-
-section#discovery img{width: 100%;}
-section#scope img{width: 30%;}
-
-.col-6-height{
-  height: 80vh;
-  border-bottom: 0.5vw solid lightgrey;
-  margin-bottom: 10vh;}
-
-.col-4-style{text-align: center;}
-
-}
 
 /*-------------Media query between width 700px to 1023,
                for phones-landscape, Ipad portrait and lanscape : width greater than 700px and less than 1023px; -------*/
 @media (min-width: 700px) and (max-width: 1023px) {
-/*h1{font-size: 250%;}
-h2{font-size: 180%;}
-h3{font-size: 150%;}
-h4{font-size: 120%;}*/
-
-#intro_section h1{font-size: 500%;}
-
-.content-padding{padding: 15vh 10vw 15vh 10vw;}
+.persona-container h1{font-size: 400%;}
+.persona-container h3{font-size: 250%;}
 #discovery.content-padding{padding: 15vh 5vw 15vh 5vw;}
 
-section#discovery img{width: 80%;}
-section#scope img{width: 20%;}
-
-.col-6-height{height: 80vh;}
-.col-4-style{text-align: center;border-bottom: 1px solid lightgrey;}
 
 }
+/*-------------Media query between width 1024px to 1600px,
+               for phones-landscape, Ipad portrait and lanscape : width greater than 700px and less than 1023px; -------*/
 
 @media (min-width: 1024px) and (max-width: 1600px) { 
-
-/*h1{font-size: 250%}
-h2{font-size: 200%;}
-h3{font-size: 160%;}
-h4{font-size: 135%;}*/
-
 .spacing h1{padding-bottom: 2vh;}
-.content-padding{padding: 20vh 15vw 20vh 15vw;}
-
-#intro_section h1{font-size: 600%;}
-section#discovery img{width: 80%;}
-section#scope img{width: 20%;}
-
-.col-6-height{height: 80vh;}
-.col-4-style{text-align: center;
-  border-bottom: 1px solid lightgrey;
-}
-
+section#scope img{width: 30%;}
+.feature-style {height: 45vh;}
 }
 
 
 /*-------------Media query for above 1600px : width greater than 1601------------------------------*/
 @media (min-width: 1601px) {  
-
-.content-padding{padding: 20vh 20vw 20vh 20vw;}
-
 section#intro_section{height: 90vh;}
-section#intro_section h1{font-size: 600%; }
 
-section#discovery img{width: 80%;}
-section#scope img{width: 20%;}
-
-.col-4-style{
-  border-bottom: 1px solid lightgrey;
-  text-align: center;
-}
 
 }
 

@@ -1,7 +1,7 @@
 
 
 var intro_section = "<h1>Golden Threads</h1>"+
-  "<p> It is inspiring to see women do amazing things and change the course of their destiny despite all odds by absolute strength, courage and positivity. I am incredibly honored to be part of Kavitha's journey to take her business a step further by building an online presence for her brand</p>"+
+  "<p> It's inspiring to see women do amazing things and change the course of their destiny despite all odds by absolute strength, courage and positivity. I am incredibly honored to be part of Kavitha's journey to take her business a step further by building an online presence for her brand</p>"+
   '<div class="italic">Golden Threads is a luxury apparel boutique, based out of Hyderabad-India that makes beautiful and sustainable south asian ethnic clothing for a modern woman</div>';
 
 var challenge = '<h4>The Challenge</h4>'+
@@ -28,102 +28,102 @@ var heading = '<h4>The Discovery</h4>'+
     '<p>These are the key insights that defined the launch version of the product.</p>';
 
 var discovery_feature_content =
-    '<div class="row">'+
-    '<div class="col-6 col-6-height">'+
-    '<div><img src="img/customer2.jpg" alt="Ezvari"></div>'+
+  '<div class="row">'+
+   '<div class="col-6 col-6-styling">'+
+        '<img src="img/customer2.jpg" alt="Ezvari">'+
         '<caption><h2>Fashion Lovers</h2><caption>'+
-        '<div><p>This is a segment of customers, who follow latest fashion trends and would like to invest in new clothing often.</p></div></div>'+
+        '<div><p>This is a segment of customers, who follow latest fashion trends and would like to invest in new clothing often.</p></div>'+
+    '</div>'+
      
-     '<div class="col-6 col-6-height">'+   
-     '<div><img src="img/customer1.jpg" alt="Ezvari"></div>'+
+     '<div class="col-6 col-6-styling"> '+  
+        '<img src="img/customer1.jpg" alt="Ezvari">'+
         '<caption><h2>Shop when needed</h2><caption>'+
-        '<div><p>These are the segment of customers who would like to buy Indian clothing when they have an occassion it. </p></div>'+
-        '</div></div>'+
+        '<div><p>This is a segment of customers, who would like to buy Indian clothing only when they have an occassion for it.</div></p>'+
+    '</div>'+
+'</div>'+
 
-    '<div class="row">'+
-    '<div class="col-6 col-6-height">'+
-        '<div><img src="img/pricesensitive.jpg" alt="Ezvari"></div>'+
+'<div class="row">'+
+    '<div class="col-6 col-6-styling">'+
+        '<img src="img/pricesensitive.jpg" alt="Ezvari">'+
         '<caption><h2>Price Sensitive</h2><caption>'+
-        '<div><p>This segment of market would like to find a balance between price and quality. Willing to spend up to 200 dollars.</p></div>'+
+        '<div><p>Customers would like to find a balance between price and quality. They are willing to spend up to 200 dollars to buy online without trying them first.</div></p>'+
     '</div>'+
-    '<div class="col-6 col-6-height">'+
-        '<div><img src="img/visual.jpg" alt="Ezvari"></div>'+
+    '<div class="col-6 col-6-styling">'+
+        '<img src="img/visual.jpg" alt="Ezvari">'+
         '<caption><h2>Visualization</h2><caption>'+
-        '<div><p>Customers find it hard to visualize how a garment would look on them. They are skeptical about the colors, style and fit.</p></div>'+
-    '</div>'+ 
-    '</div>'+ 
- 
+        '<div><p>Customers find it hard to visualize how a garment might look on them. They are skeptical about the colors, style and fit.</div></p>'+
+    '</div> '+
+    '</div> '+
 
     '<div class="row">'+
-    '<div class="col-6 col-6-height">'+
-        '<div><img src="img/consultation.jpg" alt="Ezvari"></div>'+
+    '<div class="col-6 col-6-styling">'+
+        '<img src="img/consultation.jpg" alt="Ezvari">'+
         '<caption><h2>Design Consultation</h2><caption>'+
-        '<div><p>'+
-        ' About 68 percent of people prefer to have a design consulation, to talk to the business directly and have a more personel relationship</p></div>'+
-    '</div>'+  
-    '<div class="col-6 col-6-height">'+
-        '<div><img src="img/returnpolicy.jpg" alt="Ezvari"></div>'+
-        '<caption><h2>Returnophobia</h2><caption>'+
-        '<div><p>About 65 percent of customers are concerened about return policy and would like to have free returns, possibly in the same country they are living in.</p></div>'+
+        '<div><p>Customers prefer to have a design consulation, where they can talk to the business and get some suggestions on what to buy</div></p>'+
+    '</div> '+
+    '<div class="col-6 col-6-styling">'+
+        '<img src="img/consultation.jpg" alt="Ezvari">'+
+        '<caption><h2>Fit Issues</h2><caption>'+
+        '<div><p>Main concern customers have while buying online is the fit of the garment. They would like to make sure garment fits well, before they can make a purchase.</p></div>'+
     '</div>'+
-    '</div>'+   
+    '</div> '+
 
     '<div class="row">'+
-     '<div class="col-6 col-6-height">'+
-      '<div><img src="img/devices.jpg" alt="Ezvari"></div>'+
-      '<caption><h2>Ways of shopping</h2><caption>'+
-      '<div><p>Up to 65 percent of customers like to shop on web, whereas other 35 percent prefer shopping on mobile.</p></div>'+
+     '<div class="col-6 col-6-styling">'+
+        '<img src="img/devices.jpg" alt="Ezvari">'+
+        '<caption><h2>Ways of shopping</h2><caption>'+
+        '<div><p>Up to 65 percent of customers like to shop on web, whereas other 35 percent prefer shopping on mobile.</div></p>'+
     '</div>'+
-
-      '<div class="col-6 col-6-height">'+
-        '<div><img src="img/visual.jpg" alt="Ezvari"></div>'+
-        '<caption><h2>Fit Issues</h2><caption>'+
-        '<div><p>About 90 percent of the customers feel they need a better fit guide.</p></div>'+
-    '</div>'+  
-    '</div>';
+    '<div class="col-6 col-6-styling">'+
+        '<img src="img/returnpolicy.jpg" alt="Ezvari">'+
+        '<caption><h2>Returnophobia</h2><caption>'+
+        '<div><p>About 65 percent of customers are concerened about return policy and would like to have free returns, possibly in the same country they are living in.</div></p>'+
+    '</div>'+
+  '</div>';
 
  var persona_header = '<h4>The user</h4><h1>User Personas</h1>';
- var persona_container =  '<div class="col-6 col-height col-styling item"><a href="#fashionista">'+
+ var persona_container =  '<div class="col-6 persona-styling item"><a href="#fashionista">'+
                           '<figure><img class="image-styling" src="img/fa2.png" alt="Fashionista">'+
                           '<figcaption><h2>Fashionista</h2><h3>Fashion Lover</h3>'+
                           '</figcaption></figure></a></div>'+
-                          '<div class="col-6 col-height col-styling item"><a href="#busyBee">'+
+                          '<div class="col-6 persona-styling item"><a href="#busyBee">'+
                           '<figure><img class="image-styling" src="img/busy.png" alt="BusyBee">'+
                           '<figcaption><h2>Busy Bee</h2><h3>Busy professional</h3>'+
                           '</figcaption></figure></a></div>';
+
       var fashionista = '<div id="content">'+
       '<a href="#userPersona" title="Close" class="close-styling font-styling"><h2>X</h2></a>'+
-      '<article id="persona-intro" class="col-3">'+
+      '<article id="persona-intro">'+
       '<div class="persona-image"><img src="img/fa1.jpg"></div>'+
       '<h1>Fashionista</h1>'+
       '<h3>Payal, 28years, Software Professional, Married, No Kids <h3>'+
       '<h3>Morganville, NJ</h3>'+
       '<h3>Social, Fun and Bubbly</h3>'+
-      '<p class="italic">"I like looking good and wearing beautiful clothes that makes me '+
+      '<p class="italic">"I like looking good and wearing beautiful garments that makes me '+
           'feel unique and special.'+ 
           ' I would like to stand out among my circle" </p></article>'+
-      '<article id="persona-detail" class="col-9">'+
+      '<article id="persona-detail">'+
         '<div class="col-8 list-style">'+
           '<h1>BIO</h1>'+
           '<ul>'+
-          '<li>Has a family income of more than 300k</li>'+
-          '<li>Lives in suburban US</li>'+
-          '<li>Commutes anywhere from half hour to an hour to work</li>'+
-          '<li>Has a huge South asian circle of friends</li> '+
-          '<li>Active in South Asian community events</li> '+
-          '<li>Has a good sense of fashion</li>'+
-          '<li>Technology savvy</li></ul>'+
+          '<li>Has a family income of more than 300k.</li>'+
+          '<li>Lives in suburban US.</li>'+
+          '<li>Commutes anywhere from half hour to an hour to work.</li>'+
+          '<li>Has a huge South asian circle of friends.</li> '+
+          '<li>Active in South Asian community events.</li> '+
+          '<li>Has a good sense of fashion.</li>'+
+          '<li>Technology savvy.</li></ul>'+
           '<h1>FASHION BEHAVIOR</h1> '+
           '<ul>'+
           '<li>Ruchy like to impress her peers with her fashion sense and wearing the latest fashion trends.</li>'+
-          '<li>Follows fashion trends, reads fashion blogs, follows her favorite brands on Instagram and Facebook</li>'+
-          '<li>Follows lot of Bollywood movies(Indian Movies) and is influenced by what the celebrities wear</li>'+
+          '<li>Follows fashion trends, reads fashion blogs, follows her favorite brands on Instagram and Facebook.</li>'+
+          '<li>Follows lot of Bollywood movies(Indian Movies) and is influenced by what the celebrities wear.</li>'+
           '<li>Follows fashion shows like Lakme Fashion Show, India Fashion show on social media.</li></ul>'+
           '<h1>CONCERNS AND NEEDS </h1>'+
           '<ul>'+
-          '<li>She would like to have a trend focused home page. New, Popular, As worn by sections. New items on sale Limited time/availability offers</li>'+
-          '<li>She would like to have a real person to talk to when something goes wrong with her order</li>'+
-          '<li>She would like to buy clothing from a business where she can have design consultation more personally like via phone or email</li>'+
+          '<li>She would like to have a trend focused home page. New, Popular, As worn by sections. New items on sale Limited time/availability offers.</li>'+
+          '<li>She would like to have a real person to talk to when something goes wrong with her order.</li>'+
+          '<li>She would like to buy clothing from a business where she can have design consultation more personally via phone or email.</li>'+
           '<li>Fit is very important to her, she needs a good fit guide.</li>'+
           '<li>She would like to have custom made clothing to get perfect measurements.</li></ul>'+
           '<h1>VISIT ONLINE STORE TO</h1>'+
@@ -147,57 +147,58 @@ var discovery_feature_content =
         '<div class="col-8 list-style">'+
           '<h1>BIO</h1>'+
           '<ul>'+
-          '<li>Highly educated with an MBA degree. Family income is about 400K </li>'+
+          '<li>Highly educated with an MBA degree. Family income is about 400K.</li>'+
           '<li>2nd generation Immigrant American Indian.</li>'+
           '<li>Lives 15 to 30 minutes away from work. </li>'+
           '<li>Work and taking care of the family takes up most of her time.</li> '+
           '<li>Moderately active in community events. </li> '+
-          '<li>Has a good sense of fashion</li>'+
+          '<li>Has a good sense of fashion.</li>'+
           '<li>Physically active and tech savvy</li></ul>'+
           '<h1>FASHION BEHAVIOR</h1> '+
           '<ul>'+
           '<li>She only finds couple of hours in weekday’s for herself. She generally likes to shop on weekends.</li>'+
-          '<li>Doesn’t like to spend too much time on shopping.</li>'+
+          '<li>Doesnt like to spend too much time on shopping.</li>'+
           '<li>She shops whenever she has a need for it. </li>'+
-          '<li>She doesn’t care too much about latest fashion. </li>'+
-          '<li>She doesn’t like to look out of place with her dressing sense, So she still wants to buy trendy clothes.</ul>'+
+          '<li>She doesnt care too much about latest fashion. </li>'+
+          '<li>She doesnt like to look out of place either, So she still wants to buy relatively trendy clothing.</ul>'+
           '<h1>CONCERNS AND NEEDS </h1>'+
           '<ul>'+
           '<li>She would like to have an event focused page, where she can find clothing that will be appropriate for certain occasions.</li>'+
           '<li>She has very little time, so she looks to buy on the go. Responsive site is what she is looking for.</li>'+
-          '<li>She would like to have an option of returning the goods.</li>'+
+          '<li>She would like to have an option for returning the goods.</li>'+
           '<li>She also would like to have a design consultation on what would look good on her for a particular occasion.</li>'+
           '<h1>VISIT ONLINE STORE TO</h1>'+
           '<ul>'+
           '<li>Find clothing that she is looking for a certain occasion.</li>'+
-          '<li>To see if what she liked is on sale</li></ul></div>'+
+          '<li>To see if what she liked is on sale.</li></ul></div>'+
       '<div class="col-4 range"><img src="img/ab.png"></div>'+
       '</article></div>';
 var scope_header =' <h4>The Scope</h4><h1>Feature set</h1>'+
- '<p>Below are the final features that I came up with, after extensive user testing the feature ideas with customers. This process helped us weed out the not so important features and concentrate on what customers needed.</p>';
+ '<p>Below are the final features that I came up with, after iteratively testing the feature ideas with customers. This process helped us weed out not-so-important features and concentrate on what customers needed.</p>';
 
  var scope_content='<div class="row">'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/dress.jpg" alt="Customization"><h4>Customization</h4><p>Customizing clothing according to customers meaurements</h4></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/tape.png" alt="Sizing Guide"><h4>Sizing Guide</h4><p>Comprehensive guide to measure accurately</p></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/instagram.png" alt="Real Model"><h4>Real Models</h4><p>Embedding pictures of clients who bought the item in the item page</p></div></div>'+
+  '<div class="col-3 feature-style"><img src="img/GT/dress.jpg" alt="Customization"><h4>Customization</h4><p>Customizing clothing based on customers meaurements.</h4></div>'+
+  '<div class="col-3 feature-style"><img src="img/GT/tape.png" alt="Sizing Guide"><h4>Sizing Guide</h4><p>Thorough sizing guide  to help customers measure accurately.</p></div>'+
+  '<div class="col-3 feature-style"><img src="img/GT/trial.png" alt="Free Sample"><h4>Free sample</h4><p>Providing free sample of certain styles specific to the customers measurements to gain their trust.</p></div>'+
+  '<div class="col-3 feature-style"><img src="img/GT/onboarding.png" alt="Ezvari"><h4>Customer Onborading</h4><p>Onboarding customers in to the application by knowing about their personality and helping them take accurate measurements.</p></div></div>'+ 
+
   '<div class="row">'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/onboarding.png" alt="Ezvari"><h4>CustomerOnBorading</h4><p>On boarding customer in to the application by knowing about their personality and helping them put in accurate measurements</p></div>'+  
-  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/chat2.png" alt="Chat"><h4>Instant chat</h4><p>Instant chat with the business</h3></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/trial.png" alt="Free Sample"><h4>Free sample</h4><p>Test fit via free sample</p></div></div>'+
+  '<div class="col-3 feature-style"><img src="img/profile.png" alt="Ezvari"><h4>Customer Profile</h4><p>Easy availability of customer details at one place like orders, saved items, measurements.</p></div>'+ 
+  '<div class="col-3 feature-style"><img src="img/recommendation.png" alt="Ezvari"><h4>Recommendations</h4><p>Recommending items based on clients personality for example : body shape.</p></div>'+
+  '<div class="col-3 feature-style"><img src="img/GT/chat2.png" alt="Chat"><h4>Instant chat</h4><p>Chat instantly with the designers directly from the application.</h3></div>'+
+  '<div class="col-3 feature-style"><img src="img/design.png" alt="Ezvari"><h4>Design Consultation</h4><p>Free design consulation can be made on phone, email or video chat by appointments.</p></div></div>'+
+
   '<div class="row">'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/return1.png" alt="Categories"><h4>Categorize</h4><p>Categorize products based on trends, events, and wornby</p></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/return1.png" alt="Ezvari"><h4>Style Look</h4><p>A complete style guide for an item</p></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/return1.png" alt="Ezvari"><h4>Recommendations</h4><p>Recommending items based on clients personality ex:body shape</p></div></div>'+
-  '<div class="row">'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/return1.png" alt="Ezvari"><h4>Return labels</h4><p>Proving easy label in the customer profile for any orders they made</p></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/calendar2.png" alt="Ezvari"><h4>Design Consultation</h4><p>Free design consulation can be made on phone, email or video chat by appointments</p></div>'+
-  '<div class="col-4 col-4-height col-4-style"><img src="img/GT/calendar2.png" alt="Ezvari"><h4>Customer Profile</h4><p>Easy availability of customer details like order, browsed, saved items etc</p></div></div>';
+  '<div class="col-3 feature-style"><img src="img/GT/instagram.png" alt="Real Model"><h4>Real Models</h4><p>Embedding pictures of clients who already bought the item in the item page.</p></div>'+
+  '<div class="col-3 feature-style"><img src="img/category.png" alt="Categories"><h4>Categorize</h4><p>Categorize products based on trends, events, and wornby.</p></div>'+
+  '<div class="col-3 feature-style"><img src="img/style.png" alt="Ezvari"><h4>Style Look</h4><p>A complete style guide for a garment.</p></div>'+
+  '<div class="col-3 feature-style"><img src="img/GT/return1.png" alt="Ezvari"><h4>Return labels</h4><p>Proving easy return label in the customer profile for any orders they made.</p></div></div>';
 
 $("#intro_section").append(intro_section);
 $("#challenge").append(challenge);
 $("#role").append(role);
 $(".heading").append(heading);
-$(".feature-content").append(discovery_feature_content);
+$(".discovery-content").append(discovery_feature_content);
 $(".persona_header").append(persona_header);
 $(".persona_container").append(persona_container);
 $(".scope-heading").append(scope_header);
