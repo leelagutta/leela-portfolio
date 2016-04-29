@@ -2,7 +2,7 @@
 
 var intro_section = "<h1>Taskly</h1>"+
   '<div class="italic">Because we all need a plan to bake a cake or build a billion dollar company</div>'+
-  '<p> Taskly is a Project management softwar for indiviuals, small businesses and large corporations alike. It helps you achieve great results by proving tools that are soo easy to use, even a 5 year old can start planning his homework</p>';
+  '<p> Taskly is a Project management software for individuals, small businesses and large corporations alike. It helps you achieve great results by proving tools that are so easy to use, even a 5 year old can start planning his homework</p>';
 
 var challenge = '<h4>The Challenge</h4>'+
     '<h1>Focus on Ease</h1>'+
@@ -19,12 +19,12 @@ var competitiveAnalysis_header = '<h4>The Discovery</h4>'+
   '<h1>Competitive Analysis</h1>'+
   '<p>To understand the current market in project management software,'+ 
   ' I did a thorough research on the possible competitors for Taskly.'+ 
-  'The insights I got from research opened up a different way of approach in desiging Taskly.</p>'+ 
+  'The insights I got from research opened up a different way of approach in designing Taskly.</p>'+ 
   '<p>Below are some of the keys insights during this process</p>'+
   '<p class="italic">To know more click on the categories below</p>' ;
 
 var market_panel = 
-    '<table><tr><th><h3>Company</h3></th><th><h3>About</h3></th><th><h3>Target Market</h3></th><th><h3>Marketing Strategy</h3></th><th><h3>Competitve Advantage</h3></th></tr>'+
+    '<table><tr><th><h3>Company</h3></th><th><h3>About</h3></th><th><h3>Target Market</h3></th><th><h3>Marketing Strategy</h3></th><th><h3>Competitive Advantage</h3></th></tr>'+
     '<tr><td><h3>Asana</h3></td>'+
         '<td><p>Asana is a SaaS project management tool, with a mission to enable all kinds of teams to work together effortlessly.</p></td>'+
         '<td><p>Asana is oriented equally from the worlds largest growing companies to non-profits and local businesses which offer their products and services online.</p></td>'+
@@ -35,7 +35,7 @@ var market_panel =
         '<td><ol>'+
             '<li>Amazing Founders who has a track record of building great products.</li>'+ 
             '<li>Works with student pricing.</li>'+
-            '<li>Works with premium organisations of 50+ members to get a dedicated customer success manager(CSM).</ol></td></tr>'+
+            '<li>Works with premium organizations of 50+ members to get a dedicated customer success manager(CSM).</ol></td></tr>'+
     '<tr><td><h3>Basecamp</h3></td>'+ 
         '<td><p>Basecamp is a unique blend of six tools that every group needs to do any kind of work together. All under one roof.</p></td>'+ 
         '<td><p>All kinds of companies, that need project management. Companies small and big</p></td>'+
@@ -148,7 +148,7 @@ var userInsights_header ='<h4>The Discovery 2</h1>'+
 var userInsights_content =
     '<div class="row">'+
     '<div class="col-6 col-6-height">'+
-    '<div><img src="img/customer2.jpg" alt="Ezvari"></div>'+
+    '<div><img src="img/customer2.jpg" alt="Fashion"></div>'+
         '<caption><h2>Fashion Lovers</h2><caption>'+
         '<div><p>The primary segment are the customer who follow fashion and would like to buy new garments often</p></div></div>'+
      '<div class="col-6 col-6-height">'+   
@@ -246,22 +246,22 @@ var freeLancer = '<div id="content">'+
           '<h1>Job Title and Major Responsibilities</h1>'+
           '<ol>'+
           '<li>Keeping up to date with the progress of collections/projects being made with various vendors</li>'+
-          '<li>Desiging new clothes for the upcoming season</li>'+
+          '<li>Designing new clothes for the upcoming season</li>'+
           '<li>Collaborating with sales and marketing teams to promote brands new collections</li></ol>'+
           '<h1>Goals and tasks they are trying to accomplish with taskly</h1> '+
           '<ol>'+
           '<li>She would like to have vendors, clients on chat so that she can quickly connect with them</li>'+
           '<li>She would like to have the option of setting up her custom board, so that she can track the status of a particular task</li>'+
           '<li>She would like to have the option of looking at her tasks at one place based on dates</li></ol>'+
-          '<h1>Physical, Social and technological enviornment </h1>'+
+          '<h1>Physical, Social and technological environment </h1>'+
           '<ol>'+
           '<li>Works long hours, extremely focused on her goals</li>'+
-          '<li>Organised and disciplined</li>'+
+          '<li>Organized and disciplined</li>'+
           '<li>Follows fashion news online</li>'+
-          '<li>Reading books, hiking, outdoor activites</li>'+
-          '<li>Enjoys different cultures and loves travelling.</li>'+
+          '<li>Reading books, hiking, outdoor activities</li>'+
+          '<li>Enjoys different cultures and loves traveling.</li>'+
           '<li>Tech savvy. Usually connects with friends and family on social media</li>'+
-          '<li>Atleast spends 3 hrs browsing the internet</li></ol>'+
+          '<li>At-least spends 3 hrs browsing the internet</li></ol>'+
       '</article></div>';
 
 var smallBusinessOwner = '<div id="content">'+
@@ -269,7 +269,7 @@ var smallBusinessOwner = '<div id="content">'+
       '<article id="persona-intro" class="col-3">'+
       '<div class="persona-image"><img src="img/storeowner.jpg"></div>'+
       '<h1>Store Owner</h1>'+
-      '<p>Mike Vincet, 40years, Cafe owner, Married, 2 kids <p>'+
+      '<p>Mike Vincent, 40years, Cafe owner, Married, 2 kids <p>'+
       '<p class="italic">"I would like to quickly view the project timelines, status of the project and get notified for any updates</p></article>'+
       '<article id="persona-detail" class="col-9">'+
         '<div class="list-style">'+
@@ -282,12 +282,12 @@ var smallBusinessOwner = '<div id="content">'+
           '<ol>'+
           '<li>He would like to use taskly to track his orders with vendors</li>'+
           '<li>He would like to have an email and chat embedded in the app, so that he can contact his employees or vendors quickly</li>'+
-          '<li>He would like to organise all the tasks for the month and work on them one by one</li>'+
+          '<li>He would like to organize all the tasks for the month and work on them one by one</li>'+
           '<li>He would like to assign a task to his employee and track their progress</li></ol>'+
-          '<h1>Physical, Social and technological enviornment </h1>'+
+          '<h1>Physical, Social and technological environment </h1>'+
           '<ol>'+
           '<li>Wakes up early in the morning. Likes his morning runs</li>'+
-          '<li>Cognizent of what he is selling</li>'+
+          '<li>Cognizant of what he is selling</li>'+
           '<li>Follows politics and is a passionate reader.</li>'+
           '<li>Spends time with his family during weekends</li></ol>'+
       '</article></div>';
@@ -304,17 +304,17 @@ var softwareProfessional = '<div id="content">'+
           '<h1>Job Title and Major Responsibilities</h1>'+
           '<ol>'+
           '<li>Managing stake holders and project deliverables</li>'+
-          '<li>Assiging tasks to his team to meet the project deadlines</li>'+
-          '<li>Track teams and indiviual employees progress</li></ol>'+
+          '<li>Assigning tasks to his team to meet the project deadlines</li>'+
+          '<li>Track teams and individual employees progress</li></ol>'+
           '<h1>Goals and tasks they are trying to accomplish with taskly</h1> '+
           '<ol>'+
           '<li>Visually representing the tasks, will give him clear picture of what is left to do</li>'+
           '<li>He would like to assign tasks and view tasks that are assigned to him</li>'+
-          '<li>He would like to schedule meetings or communicate with his collegues via chat or email</li></ol>'+
-          '<h1>Physical, Social and technological enviornment </h1>'+
+          '<li>He would like to schedule meetings or communicate with his colleagues via chat or email</li></ol>'+
+          '<h1>Physical, Social and technological environment </h1>'+
           '<ol>'+
-          '<li>Works at Google. Lives in sillicon valley</li>'+
-          '<li>Loves basketball, travelling and technology</li>'+
+          '<li>Works at Google. Lives in silicon valley</li>'+
+          '<li>Loves basketball, traveling and technology</li>'+
           '<li>Enjoys hiking and nature</li></ol>'+
       '</article></div>';
       
@@ -370,5 +370,4 @@ $("#persona-detail").scrollTop(0);
 
 
     
-
 
