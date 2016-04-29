@@ -1,11 +1,9 @@
 h1,h2,p,.container{text-align: center;}
-
-h1,h2{font-family: "Raleway";}
-
+h3,h4{font-family: "callunaitalic";}
 p{font-family: "callunaitalic";}
 h1{font-size: 400%;}
-h2{font-size: 200%;}
-p{font-size: 150%;}
+h3{font-size: 140%;}
+
 
 .textspacingVertical {
   padding-top: 10vh;
@@ -27,17 +25,34 @@ p{font-size: 150%;}
   background-size:contain;
 }
 
+
+#showcase{
+  text-align: center;
+}
+
+figcaption{
+  padding-top: 10vh;
+} 
+        
 .banner-img-center{
   background-repeat: no-repeat;
   background-position: center;
 }
 
 section.banner h1 {
-  font-size: 700%;
+  font-size: 1000%;
   line-height: 1;
   text-transform: uppercase;
-  opacity: 0.8;
-  animation: FadeIn 4s;
+  /*opacity: 0.8;*/
+  animation: FadeIn 2s;
+}
+
+section.banner h2{
+   font-size: 250%;
+  line-height: 1;
+  text-transform: uppercase;
+    animation: FadeIn 2s;
+
 }
 
 section.banner-img {
@@ -48,15 +63,29 @@ section.banner-img2 {
   background-image: url("../img/2.jpg");
 }
 
-section#intro_section p {
-  height: 50vh;
-  padding-top: 23vh;
-  background-image: url("../img/1.jpg");
+section.banner.banner-img2{
+  height: 60vh;
 }
-
 section#intro_section img{
   width: auto;
   display: inline;
+}
+
+section#intro_section{
+  padding: 10vh 20vh 20vh 20vh;
+}
+
+section#intro_section p{
+  padding: 0vh 10vh 0vh 10vh;
+}
+
+
+section#intro_section h1{
+  padding-bottom: 7vh;
+}
+
+section#intro_section h1{
+  text-transform: uppercase;
 }
 
 section#showcase img{
@@ -98,7 +127,7 @@ section.banner {padding-top: 40vh; height: 90vh;}
                 1600,for Laptops : width greater than 1024 and width less than 1600px------*/
 @media (min-width: 1201px) and (max-width: 1600px) { 
 
-section.banner {padding-top: 40vh; height: 90vh;}
+section.banner {padding-top: 35vh; height: 90vh;}
 
 .container{padding-right: 10vw;padding-left: 10vw;}
 }
@@ -134,4 +163,12 @@ to{
 @font-face {
     font-family: callunaitalic;
     src: url(../fonts/Calluna.otf);
+}
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url(../fonts/BebasNeueRegular.otf);
+}
+@font-face {
+    font-family: BebasNeueBold;
+    src: url(../fonts/BebasNeueBold.otf);
 }

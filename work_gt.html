@@ -20,7 +20,8 @@
 <!-- ***************** ***** OffCanvas Navigation ***************************** -->
 <input type="checkbox" name="menu" value="toggle" id="toggle">
     <section id="menu">
-    <label class="toggle" for="toggle"><i class="fa fa-2x fa-bars"></i></label><nav id="nav1" class="menuContent"></nav></section>
+    <label class="toggle" for="toggle"><i class="fa fa-2x fa-bars"></i></label>
+    <nav id="nav1" class="menuContent"></nav></section>
 <!--************************** IntroSection *******************************************-->
   <section id="intro_section" class="content-padding skin-one header-margin"></section>
 <!--************************** ChallengeSection *******************************************-->
@@ -45,8 +46,19 @@
     <div id="fashionista" class="modalDialog"></div>
     <div id="busyBee" class="modalDialog"></div>
 </div>
-
+<footer id="footer">
+  <div class="wow fadeInUp"> <img src="img/b.jpg" alt="logo"></div> 
+  <div id="icons">
+    <img src="img/Facebook-icon.png">
+    <img src="img/Linkedin-icon.png">
+    <img src="img/Twitter-icon.png">
+  </div>
+</footer>
 <!--************************** Js files *******************************************-->
+<script>
+$(document).ready( function() {
+        $("#nav1").load("nav.html");});
+</script>
 <script src="js/select.js"></script>
 <script src="js/goldenthreads.js"></script>
 </body>
