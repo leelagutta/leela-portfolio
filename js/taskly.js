@@ -367,7 +367,11 @@ $('.modalbox').on("click", function(){
 $("#persona-detail").scrollTop(0);
 });
 
+$(document).ready( function() {
+        $("#footer").load("footer.html");});
 
+$(document).ready( function() {
+        $("#navigation").load("nav.html");});
 
     
 
