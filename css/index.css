@@ -1,18 +1,27 @@
-h1,h2,p,.container{text-align: center;}
-h3,h4{font-family: "callunaitalic";}
+/*---------Letter Styling--------*/
+h1,h2,p,
+.container,
+#showcase
+{text-align: center;}
+
+h1{ font-family: "Raleway";}
+h2{font-family: "BebasNeueRegular";}
+h3,h4{font-family: "BebasNeueRegular";}
 p{font-family: "callunaitalic";}
+
+p{font-size: 150%;}
 h1{font-size: 400%;}
+h2{font-size: 300%;}
 h3{font-size: 140%;}
 
 
+/*------------Spacing--------------*/
 .textspacingVertical {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding: 10vh 0vw 10vh 0vw;
 }
 
 .textspacingHorizontal{
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding: 0vh 10vw 0vh 10vw;
 }
 
 .container {
@@ -20,39 +29,23 @@ h3{font-size: 140%;}
   padding: 10vh;
 }
 
-.banner-img-contain{
+/*---------Banner Styling---------*/
+section.banner-img-contain{
   background-repeat:repeat;
   background-size:contain;
 }
-
-
-#showcase{
-  text-align: center;
-}
-
-figcaption{
-  padding-top: 10vh;
-} 
         
-.banner-img-center{
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 section.banner h1 {
   font-size: 1000%;
   line-height: 1;
   text-transform: uppercase;
-  /*opacity: 0.8;*/
   animation: FadeIn 2s;
 }
 
 section.banner h2{
-   font-size: 250%;
   line-height: 1;
   text-transform: uppercase;
-    animation: FadeIn 2s;
-
+  animation: FadeIn 2s;
 }
 
 section.banner-img {
@@ -61,35 +54,21 @@ section.banner-img {
 
 section.banner-img2 {
   background-image: url("../img/2.jpg");
-}
-
-section.banner.banner-img2{
   height: 60vh;
 }
-section#intro_section img{
-  width: auto;
-  display: inline;
-}
 
+/*--------------Text Spacing-----------------*/
 section#intro_section{
   padding: 10vh 20vh 20vh 20vh;
 }
 
-section#intro_section p{
-  padding: 0vh 10vh 0vh 10vh;
-}
-
-
 section#intro_section h1{
-  padding-bottom: 7vh;
-}
-
-section#intro_section h1{
+  padding-bottom: 5vh;
   text-transform: uppercase;
 }
 
 section#showcase img{
-  height: 40vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -99,37 +78,73 @@ section#showcase img{
                for phones - portrait : greater than 320px and less than 699px--------------------------------*/
 @media (min-width: 320px) and (max-width: 699px) { 
 
-section.banner {padding-top: 20vh; height: 45vh;}
-section.banner h1 {font-size: 500% !important;}
-h1{font-size: 300%;}
-p{font-size: 135%;}
-section#intro_section .textspacingHorizontal{padding-right: 5vw;padding-left: 5vw;}
+h1{font-size: 200%;}
+p{font-size: 120%;}
+
+section.banner {
+  padding-top: 40vh; 
+  height: 90vh;
+}
+
+section.banner h1 {
+  font-size: 500% !important;
+}
+
+.textspacingHorizontal{
+  padding-right: 1vw;
+  padding-left: 1vw;
+}
+
+.container{
+  padding-right: 2vw !important;
+  padding-left: 2vw !important;
+}
+
+section#showcase img{
+  height: 100%;
+  width: 50%;}
 }
 
 /*-------------Media query between width 700px to 1023,
                for phones-landscape, Ipad portrait and lanscape : width greater than 700px and less than 1023px; -------*/
 @media (min-width: 700px) and (max-width: 1023px) {
 
-section.banner {padding-top: 40vh; height: 90vh;}
 p{font-size: 135%;}
-section#showcase img{height: 30vh;}
 
+section.banner {
+  padding-top: 40vh; 
+  height: 90vh;
+ }
+
+section#showcase img{
+  height: 90%;
+ }
 }
 
 /*-------------Media query between width 1024px to 
                 1200,for Laptops : width greater than 1024 and width less than 1600px------*/
 @media (min-width: 1024px) and (max-width: 1200px) { 
-section.banner {padding-top: 40vh; height: 90vh;}
-}
 
+section.banner {
+  padding-top: 40vh; 
+  height: 90vh;
+ }
+}
 
 /*-------------Media query between width 1201px to 
                 1600,for Laptops : width greater than 1024 and width less than 1600px------*/
 @media (min-width: 1201px) and (max-width: 1600px) { 
 
-section.banner {padding-top: 35vh; height: 90vh;}
+section.banner {
+  padding-top: 35vh; 
+  height: 90vh;
+}
 
-.container{padding-right: 10vw;padding-left: 10vw;}
+.container{
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
 }
 
 
@@ -141,8 +156,14 @@ p{font-size: 165%;}
 section.banner h1 {font-size: 900%;}
 
 .container{padding: 30vh;}
+
+section#showcase img{
+  height: 70%;
+}
 }
 
+
+/*-------------------Animations-----------------*/
 
 @-webkit-keyframes FadeIn{
 
@@ -155,6 +176,7 @@ to{
 
 }
 
+/*-------------------Fonts-----------------*/
 @font-face {
     font-family: callunaRegular;
     src: url(../fonts/CallunaRegular.otf);

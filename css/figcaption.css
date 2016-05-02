@@ -1,6 +1,6 @@
 
 .item figure {
-  height: 100%;
+  height: 40vh;
   width: 100%;
   position: relative;
 }
@@ -40,6 +40,10 @@ h3{
   z-index: 100;
 }
 
+figcaption{
+  padding-top: 10vh;
+} 
+
 .item figcaption p{
   font-size: 1.5em;
   text-align: center;
@@ -70,12 +74,12 @@ h3{
 }
 
 .item:hover figcaption {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 /*-------------Media query between width 320px to 699,
                for phones - portrait : greater than 320px and less than 699px--------------------------------*/
-@media (min-width: 320px) and (max-width: 699px) { 
+@media (min-width: 320px) and (max-width: 499px) { 
 
   .item{
   	padding-left: 5vh;
@@ -85,16 +89,42 @@ h3{
 
 }
 
+@media (min-width: 500px) and (max-width: 699px) { 
+
+  .item{
+    padding-left: 5vh;
+    padding-right: 5vh;
+    padding-bottom: 5vh;
+  }
+
+  .item figcaption{
+    height: 100%;
+    width: 100%;}
+  }
+}
+
 /*-------------Media query between width 700px to 1023,
                for phones-landscape, Ipad portrait and lanscape : width greater than 700px and less than 1023px; -------*/
 @media (min-width: 700px) and (max-width: 1023px) {
-
+ .item figcaption{
+  height: 90%;
+ }
 }
 
-  /*-------------Media query between width 1024px to 
-                1569,for Laptops : width greater than 1024 and width less than 1600px------*/
-@media (min-width: 1024px) and (max-width: 1600px) { 
-
-
+@media (min-width: 1024px) and (max-width: 1200px) { 
 }
+
+
+@media (min-width: 1201px) and (max-width: 1600px) { 
+
+  }
+
+@media (min-width: 1601px) { 
+.item figcaption{
+      height: 70%;
+    }
+
+  }
+
+
 
