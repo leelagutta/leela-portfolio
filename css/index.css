@@ -4,7 +4,7 @@ h1,h2,p,
 #showcase
 {text-align: center;}
 
-h1{ font-family: "Raleway";}
+h1{ font-family: "RalewayRegular";}
 h2{font-family: "BebasNeueRegular";}
 h3,h4{font-family: "BebasNeueRegular";}
 p{font-family: "callunaitalic";}
@@ -191,6 +191,7 @@ to{
     src: url(../fonts/BebasNeueRegular.otf);
 }
 @font-face {
-    font-family: BebasNeueBold;
-    src: url(../fonts/BebasNeueBold.otf);
+    font-family: RalewayRegular;
+    src: url(../fonts/RalewayRegular.ttf);
 }
+
