@@ -49,11 +49,11 @@ section.banner h2{
 }
 
 section.banner-img {
-  background-image: url("../img/3.jpg");
+  background-image: url("../img/home/3.jpg");
 }
 
 section.banner-img2 {
-  background-image: url("../img/2.jpg");
+  background-image: url("../img/home/2.jpg");
   height: 60vh;
 }
 

@@ -189,15 +189,15 @@ var userInsights_content =
 
  var persona_header = '<h4>The user</h4><h1>User Personas</h1>';
  var persona_container =  '<div class="col-4 persona-taskly-styling item"><a href="#smallBusinessOwner">'+
-                          '<figure><img class="image-styling" src="img/storeowner.png" alt="smallBusinessOwner">'+
+                          '<figure><img class="image-styling" src="img/taskly/storeowner.png" alt="smallBusinessOwner">'+
                           '<figcaption><h2>Store Owner</h2><h3>Small Business</h3>'+
                           '</figcaption></figure></a></div>'+
                           '<div class="col-4 persona-taskly-styling item"><a href="#softwareProfessional">'+
-                          '<figure><img class="image-styling" src="img/techie.png" alt="softwareProfessional">'+
+                          '<figure><img class="image-styling" src="img/taskly/techie.png" alt="softwareProfessional">'+
                           '<figcaption><h2>Engineering Manager</h2><h3>Mid Size Company</h3>'+
                           '</figcaption></figure></a></div>'+
                           '<div class="col-4 persona-taskly-styling item"><a href="#freeLancer">'+
-                          '<figure><img class="image-styling" src="img/designer.png" alt="freeLancer">'+
+                          '<figure><img class="image-styling" src="img/taskly/designer.png" alt="freeLancer">'+
                           '<figcaption><h2>Fashion Designer</h2><h3>freelancer</h3>'+
                           '</figcaption></figure></a></div>';
 
@@ -237,7 +237,7 @@ var scope_header =' <h1>Feature set</h1>';
 var freeLancer = '<div id="content">'+
       '<a href="#userPersona" title="Close" class="close-styling font-styling"><h2>X</h2></a>'+
       '<article id="persona-intro">'+
-      '<div class="persona-image"><img src="img/designer.jpg"></div>'+
+      '<div class="persona-image"><img src="img/taskly/designer.jpg"></div>'+
       '<h1>Designer</h1>'+
       '<p>Laurel, 27years, Masters in Fine Arts, Single <p>'+
       '<p class="italic">"I  would like to have a custom board, so that I can track the status of a particular project visually</p></article>'+
