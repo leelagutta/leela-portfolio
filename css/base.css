@@ -95,23 +95,7 @@ content:"";
 display: block;
 }
 
-#footer, .wrapper:after{
-  height: 200px;
-}
 
-#footer > div {
-  text-align: center;
-}
-
-#footer img{
-  width: 15%;
-  display: inline;
-}
-
-#icons img{
-  width: 30px;
-  height: 30px;
-}
 
 
 

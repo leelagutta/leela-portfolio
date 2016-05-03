@@ -37,11 +37,10 @@
 #sitemap p{
 	text-align: center;
 	padding: 5vh 15vw 10vh 15vw;
-	/*padding: 10vh;*/
 }
+
 #sitemap img{
-padding-left: 10vh;
-padding-right: 10vh;
+padding-bottom: 20vh;
 	width: 100%;	
 }
 

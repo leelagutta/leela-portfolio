@@ -1,22 +1,22 @@
 
 
-var intro_section = "<h1>Golden Threads</h1>"+
+var intro_section = "<h1>Ezvari</h1>"+
   "<p> It's inspiring to see women do amazing things and change the course of their destiny despite all odds by absolute strength, courage and positivity. I am incredibly honored to be part of Kavitha's journey to take her business a step further by building an online presence for her brand</p>"+
-  '<div class="italic">Golden Threads is a luxury apparel boutique, based out of Hyderabad-India that makes beautiful and sustainable south asian ethnic clothing for a modern woman</div>';
+  '<div class="italic">Ezvari is a luxury apparel boutique, based out of Hyderabad-India that makes beautiful and sustainable south asian ethnic clothing for a modern woman</div>';
 
 var challenge = '<h4>The Challenge</h4>'+
     '<h1>Create personalized experiences for clients</h1>'+
-    "<p>Golden Threads provides personalized apparel design services based on customer's individual choice. They currently have a brick and mortar store in India where south asian clients from all over the globe goes in to get customized clothing.</p>"+ 
+    "<p>Ezvari provides personalized apparel design services based on customer's individual choice. They currently have a brick and mortar store in India where south asian clients from all over the globe goes in to get customized clothing.</p>"+ 
     '<p>As the brand gained popularity via social marketing channels, they realized they had significant amount of customer base who is interested in their customized services from countries where there is a significant south Asian market. </p>'+
-    '<p> In order to be readily accessible to this section of market, who cannot visit their physical store, they wanted a marketplace where they can provide a personalized shopping experience similar to their brick and mortar store.'+
+    '<p>In order to be readily accessible to this section of market, who cannot visit their physical store, they wanted a marketplace where they can provide a personalized shopping experience similar to their brick and mortar store.'+
     '<p>Challenge is to design an e-commerce web application, that speaks the brand integrity and an experience similar to their physical store</p>';
 
 var role ='<h1>My Role</h1>'+
     '<h2>User Research & Analysis </h2>'+
-    '<p>I gathered invaluable insights about Golden Threads competitors, customers, their behaviors and their online shopping habits '+ 
+    '<p>I gathered invaluable insights about Ezvari competitors, customers, their behaviors and their online shopping habits '+ 
         'through a wide range of user interviews and surveys.</p>'+
     '<h2>Ideation</h2>'+
-    '<p>Following an extensive research about Golden Threads business model and their customers, I helped transcribe ideas and concepts in to features that address customer behaviors and emotions.</p>'+
+    '<p>Following an extensive research about Ezvari business model and their customers, I helped transcribe ideas and concepts in to features that address customer behaviors and emotions.</p>'+
     '<h2>Design</h2>'+
     '<p> I executed journeys, wireframes, prototypes and design specs.</p>'+
     '<h2>Usability Testing</h2>'+

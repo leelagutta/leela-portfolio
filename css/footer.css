@@ -1,0 +1,21 @@
+.logo{
+	width: 15%;
+	
+}
+
+#footer, .wrapper:after{
+  height: 200px;
+}
+
+#footer > div {
+  text-align: center;
+}
+
+#footer img{
+  display: inline;
+}
+
+#icons img{
+  width: 30px;
+  height: 30px;
+}
