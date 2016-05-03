@@ -155,7 +155,7 @@ section.banner {padding-top: 30vh; height: 65vh;}
 p{font-size: 165%;}
 section.banner h1 {font-size: 900%;}
 
-.container{padding: 30vh;}
+.container{padding: 10vh 20vh 10vh 20vh;}
 
 section#showcase img{
   height: 70%;
